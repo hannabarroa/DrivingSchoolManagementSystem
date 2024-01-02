@@ -1,0 +1,35 @@
+nav {
+    background-color: #d989ec89;
+    padding: 0px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  button {
+    display:block;
+    color: hwb(0 0% 100%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    
+  }
+  button:hover {
+      background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+      box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+      transition: box-shadow 0.25s;
+      color: white;
+      outline: none;
+  }
